@@ -1,5 +1,6 @@
 # [openctp](https://github.com/openctp/openctp)
-CTP开放平台提供A股、港股、美股、期货、期权等全品种接入通道，通过提供中泰证券XTP、华鑫证券奇点、东方证券OST、东方财富证券EMT、盈透证券TWS等各通道的CTPAPI接口，CTP程序可以无缝对接各股票柜台。平台也提供了一套基于TTS交易系统的模拟环境，同样提供了CTPAPI兼容接口，可以替代Simnow，为CTP量化交易开发者提供7x24可用的模拟环境。
+openctp提供A股、港股、美股、期货、期权等全品种接入通道，通过提供中泰证券XTP、华鑫证券奇点、东方证券OST、东方财富证券EMT、盈透证券TWS等各通道的CTPAPI接口，CTP程序可以无缝对接各股票柜台。平台也提供了一套基于TTS交易系统的模拟环境，同样提供了CTPAPI兼容接口，可以替代Simnow，为CTP量化交易开发者提供7x24可用的模拟环境。
+![openctp全景图](https://user-images.githubusercontent.com/83346523/148639077-6c328032-b75a-4979-be8d-157de60cf3b4.jpg)
 
 # openctp模拟环境
 openctp模拟环境与上期技术SimNow模拟环境类似，均为CTPAPI接口的测试与仿真平台，CTP是上期开发的，SimNow用的也是CTP柜台，所以SimNow是CTPAPI接口的官方测试平台，openctp是自己开发了兼容CTPAPI接口的柜台系统，由于CTP柜台业务非常多，我们openctp只是从一般投资者角度考虑，只实现了一般交易过程中需要使用的接口，完整版还需要到SimNow测试，其实SimNow也没多完整，毕竟是个模拟环境，很多业务也不支持，所以有些功能还是需要在实盘环境中测试的。
@@ -17,11 +18,15 @@ openctp模拟环境有三套，一套7x24环境，不间断循环播放最新交
 - 行情前置 - 无（订阅行情需要直连相应行情通道）
 ## openctp环境监控平台
 openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。监控页面：[openctp模拟环境监控](http://121.37.80.177:50080/index.html)
+
+![openctp环境监控平台](https://user-images.githubusercontent.com/83346523/148802378-2c9b3d3f-1959-4aab-851a-cf55666806d8.png)
+
 # CTPAPI
 openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改接入股票柜台。
 openctp还提供了Python版的CTPAPI的pip install支持，为Python开发者提供了极大的便利。其它语言的CTPAPI我们也做了收集，均为github作者实现。
-## CTPAPI-Python
+## [CTPAPI-Python](https://github.com/openctp/openctp-ctp-python)
 提供两种方式使用Python版的CTPAPI，一种是下载我们做好的Python库，一种是用pip install一键安装。
+
 [openctp官方开发的Python语言版CTPAPI](https://github.com/openctp/openctp-ctp-python)
 ## CTPAPI-Java
 [openctp收集的Java语言版CTPAPI](https://github.com/openctp/openctp/tree/master/ctpapi-java)
@@ -50,7 +55,7 @@ ViTrader（原TextTrader），命令行交易终端（股票、期货、期权�
 以websocket+json协议提供CTP交易及行情服务。
 
 # TTS
-TTS全称Tick Trading System，是一款支持多通道多账户多交易员的交易系统，以CTPAPI接口对外通讯，openctp的模拟平台就是采用TTS系统提供模拟交易服务。
+TTS全称Tick Trading System，是openctp开发的一款支持多通道多账户多交易员的交易系统，以CTPAPI接口对外通讯，openctp的模拟平台就是采用TTS系统提供模拟交易服务。
 
 # openctp咨询服务
 基于openctp积累的深厚的技术，我们为CTP、华鑫奇点、中泰XTP等柜台接入与开发提供咨询服务，有接口及实盘交易问题均可咨询，只需1000元，永久服务。
