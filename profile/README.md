@@ -19,8 +19,6 @@ openctp模拟环境有三套，一套7x24环境，不间断循环播放最新交
 ## openctp环境监控平台
 openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。监控页面：[openctp模拟环境监控](http://121.37.80.177:50080/index.html)
 
-![openctp环境监控平台](https://user-images.githubusercontent.com/83346523/148802378-2c9b3d3f-1959-4aab-851a-cf55666806d8.png)
-
 # [CTPAPI](https://github.com/openctp/openctp)
 openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改接入股票柜台。
 
