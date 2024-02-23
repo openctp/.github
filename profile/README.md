@@ -21,8 +21,9 @@ openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT
 
 ![openctp环境监控平台](https://user-images.githubusercontent.com/83346523/148802378-2c9b3d3f-1959-4aab-851a-cf55666806d8.png)
 
-# CTPAPI
+# [CTPAPI](https://github.com/openctp/openctp)
 openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改接入股票柜台。
+
 openctp还提供了Python版的CTPAPI的pip install支持，为Python开发者提供了极大的便利。其它语言的CTPAPI我们也做了收集，均为github作者实现。
 ## [CTPAPI-Python](https://github.com/openctp/openctp-ctp-python)
 提供两种方式使用Python版的CTPAPI，一种是下载我们做好的Python库，一种是用pip install一键安装。
@@ -73,7 +74,7 @@ openctp不定期组织同学进行技术交流，为大家创造一个好的学�
 - 第五期：[内存数据库架构交易系统总线开发技术](https://www.bilibili.com/video/BV1Bx4y1K7t7)，8000元，通过TTS的总线架构技术讲解CTP那样的总线开发技术，包括重演、热备、负载均衡、最短路由、分布式计算等技术，内存计算架构在各行业的高性能通讯方面都可以应用，远不止金融交易领域。
 
 ## openctp公开课
-openctp做了一些0基础学习课程，帮助更多朋友进入到软件编程与证券期货交易行业。
+openctp做了一些免费的0基础学习课程，帮助更多朋友进入到软件编程与证券期货交易行业。
 - [C语言公开课](https://www.bilibili.com/video/BV1CK411o743)：以生动有趣的方式讲C语言基础性编程技术，重在兴趣培养和信心建立。
 - C++语言公开课：以生动有趣的方式讲C++语言基础性编程技术，课程在准备中。
 - [Linux环境编程公开课](https://www.bilibili.com/video/BV1Jw411E7sF)：介绍Unix&Linux的前世今世，讲Shell、VI编辑器等使用，讲netstat、traceroute、ifconfig、lsof等网络工具的使用，讲正则表达式等等，0基础，谁都能听得懂。
