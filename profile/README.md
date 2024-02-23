@@ -61,7 +61,7 @@ openctp还提供了Python版的CTPAPI的pip install支持，为Python开发者�
 [东方财富EMT柜台CTPAPI](https://github.com/openctp/openctp/tree/master/ctp2EMT东方财富)
 
 # [TickTrader](https://github.com/openctp/TickTrader)
-一款支持订单OneClickOrder下单风格的交易客户端，支持CTP、CTP股票期权、openctp、华鑫证券股票及期权、中泰证券等股票、期货、期权柜台。
+一款支持订单OneClickOrder下单风格的交易客户端，支持CTP、CTP股票期权、openctp、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
 [TickTrader下载](http://121.37.80.177:50080/download.html)
 # MiniTrader
 一款支持订单OneClickOrder下单风格的交易客户端，开发中，相当于TickTrader的Mini版，开发中，即将发布。
