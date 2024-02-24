@@ -14,33 +14,15 @@ openctp还有更多的产品和服务在研发中。。。
 # openctp模拟环境
 openctp模拟环境与上期技术SimNow模拟环境类似，均为CTPAPI接口的测试与仿真平台，CTP是上期开发的，SimNow用的也是CTP柜台，所以SimNow是CTPAPI接口的官方测试平台，openctp是自己开发了兼容CTPAPI接口的柜台系统，由于CTP柜台业务非常多，我们openctp只是从一般投资者角度考虑，只实现了一般交易过程中需要使用的接口，完整版还需要到SimNow测试，其实SimNow也没多完整，毕竟是个模拟环境，很多业务也不支持，所以有些功能还是需要在实盘环境中测试的。
 
-openctp模拟环境有三套，一套7x24环境，不间断循环播放最新交易日的一段行情，一套为仿真环境，交易时段与实盘一致，可以用来长期验证策略的运行效果，除期货外还支持A股的股票交易。第三套也是仿真环境，不过带宽较高，提供的品种也全，除期货、期权外还提供了A股的股票、基金、债券以及股票期权的仿真交易，收费也很便宜，只要300块一年，关注openctp公众号并回复注册vip即可。
+openctp具体说明见openctp仓库：[https://github.com/openctp/openctp](https://github.com/openctp/openctp)。
 
-## openctp模拟环境账号注册
-关注openctp公众号，回复相应信息即可注册模拟账号，即时生效，初始资金1000万。
-- 7x24环境账号注册，回复注册24，每回复一次就多注册一个7x24账号，一个微信最多注册3个号。
-- 仿真环境账号注册，回复注册仿真，每回复一次就多注册一个仿真账号，一个微信最多注册3个号。
-- vip环境账号注册，回复注册vip，每回复一次就多注册一个vip账号，一个微信最多注册10个号。
-
-## BrokerID、AppID、AuthCode
-openctp模拟环境不检查这几个字段，3项均可不填。
-
-## 7x24模拟环境
-- 交易前置 - tcp://121.37.80.177:20002
-- 行情前置 - tcp://121.37.80.177:20004
-## 仿真环境
-- 交易前置 - tcp://121.37.90.193:20002
-- 行情前置 - 无（订阅行情需要直连相应行情通道）
-## 仿真环境
-- 交易前置 - tcp://42.192.226.242:20002
-- 行情前置 - 无（订阅行情需要直连相应行情通道）
-## openctp环境监控平台
+# openctp集中监控平台
 openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。
 
-监控页面：[openctp模拟环境监控](http://121.37.80.177:50080/index.html)
+监控平台地址：[openctp模拟环境监控](http://121.37.80.177:50080/index.html)
 
 # [CTPAPI](https://github.com/openctp/openctp)
-openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改接入股票柜台。
+openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改即可接入股票柜台。
 
 openctp还提供了Python版的CTPAPI的pip install支持，为Python开发者提供了极大的便利。其它语言的CTPAPI我们也做了收集，均为github作者实现。
 ## [CTPAPI-Python](https://github.com/openctp/openctp-ctp-python)
