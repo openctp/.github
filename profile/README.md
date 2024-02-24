@@ -19,7 +19,7 @@ openctp模拟环境的使用方法及账号注册等见openctp仓库：[https://
 # openctp集中监控平台
 openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。
 
-监控平台地址：[openctp模拟环境监控](http://121.37.80.177:50080/index.html)
+监控平台地址：[openctp模拟环境监控](http://121.37.80.177)
 
 # [CTPAPI](https://github.com/openctp/openctp)
 openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改即可接入股票柜台。
