@@ -26,34 +26,22 @@ openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPA
 
 openctp还提供了Python版的CTPAPI的pip install支持，为Python开发者提供了极大的便利。其它语言的CTPAPI我们也做了收集，均为github作者实现。
 ## [CTPAPI-Python](https://github.com/openctp/openctp-ctp-python)
-openctp官方开发，提供两种方式使用Python版的CTPAPI，一种是下载我们做好的Python库，一种是用pip install一键安装。
-
-[openctp官方开发的Python语言版CTPAPI](https://github.com/openctp/openctp-ctp-python)
-## CTPAPI-Java
-[openctp收集的Java语言版CTPAPI](https://github.com/openctp/openctp/tree/master/ctpapi-java)
-## CTPAPI-Go
-[openctp收集的Go语言版CTPAPI](https://github.com/openctp/openctp/tree/master/ctpapi-go)
-## 华鑫证券奇点股票柜台CTPAPI
-[华鑫证券奇点股票柜台CTPAPI](https://github.com/openctp/openctp/tree/master/ctp2华鑫证券STP)
-## 华鑫证券奇点股票期权柜台CTPAPI
-[华鑫证券奇点股票期权柜台CTPAPI](https://github.com/openctp/openctp/tree/master/ctp2STPOPT)
-## 中泰证券XTP柜台CTPAPI
-[中泰证券XTP柜台CTPAPI](https://github.com/openctp/openctp/tree/master/ctp2中泰证券XTP)
-## 东方财富EMT柜台CTPAPI
-[东方财富EMT柜台CTPAPI](https://github.com/openctp/openctp/tree/master/ctp2EMT东方财富)
+CTPAPI的Python接口，openctp官方开发，使用Swig技术制作，提供两种方式使用Python版的CTPAPI，一种是下载我们做好的Python库，一种是用pip install一键安装。
 
 # [TickTrader](https://github.com/openctp/TickTrader)
 一款支持订单OneClickOrder下单风格的交易客户端，支持CTP、CTP股票期权、openctp、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
-[TickTrader下载](http://121.37.80.177:50080/download.html)
+
+[TickTrader下载](http://121.37.80.177/download.html)
 # MiniTrader
 一款支持订单OneClickOrder下单风格的交易客户端，开发中，相当于TickTrader的Mini版，开发中，即将发布。
 
 # [ViTrader](https://github.com/openctp/ViTrader)
 ViTrader（原TextTrader），命令行交易终端（股票、期货、期权），绝大部分命令与VI编辑器中相同，支持CTP、openctp、华鑫证券、中泰证券等柜台，支持Windows、Linux、MacOS等操作系统。
-[ViTrader下载](http://121.37.80.177:50080/download.html)
+
+[ViTrader下载](http://121.37.80.177/download.html)
 
 # [webctp](https://github.com/openctp/webctp)
-以websocket+json协议提供CTP交易及行情服务。
+以websocket+json协议提供CTP交易及行情服务，适合web类产品开发。
 
 # TTS
 TTS全称Tick Trading System，是openctp开发的一款支持多通道多账户多交易员的交易系统，以CTPAPI接口对外通讯，openctp的模拟平台就是采用TTS系统提供模拟交易服务。
