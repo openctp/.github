@@ -14,7 +14,7 @@ openctp还有更多的产品和服务在研发中。。。
 # openctp模拟环境
 openctp模拟环境与上期技术SimNow模拟环境类似，均为CTPAPI接口的测试与仿真平台，CTP是上期开发的，SimNow用的也是CTP柜台，所以SimNow是CTPAPI接口的官方测试平台，openctp是自己开发了兼容CTPAPI接口的柜台系统，由于CTP柜台业务非常多，我们openctp只是从一般投资者角度考虑，只实现了一般交易过程中需要使用的接口，完整版还需要到SimNow测试，其实SimNow也没多完整，毕竟是个模拟环境，很多业务也不支持，所以有些功能还是需要在实盘环境中测试的。
 
-openctp具体说明见openctp仓库：[https://github.com/openctp/openctp](https://github.com/openctp/openctp)。
+openctp模拟环境的使用方法及账号注册等见openctp仓库：[https://github.com/openctp/openctp](https://github.com/openctp/openctp)。
 
 # openctp集中监控平台
 openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。
