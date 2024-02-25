@@ -43,13 +43,13 @@ TTS全称Tick Trading System，是openctp开发的一款支持多通道多账户
 
 # openctp技术服务
 ## 期货交易佣金及保证金参考表
-openctp提供了一个实盘环境的手续费及保证金等资金计算参考表，第天同步实盘。网址：[openctp佣金及保证金参考表](http://121.37.80.177/fees.html)
+openctp提供了一个实盘环境的手续费及保证金等资金计算参考表，每天同步实盘。网址：[openctp期货交易佣金及保证金参考表](http://121.37.80.177/fees.html)
 ## 模拟环境监控平台
 openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。网址：[openctp模拟环境监控](http://121.37.80.177)
 ## 实盘环境监控平台
 开发中。。。
 ## CTP、中泰XTP、华鑫TORA等柜台接口、文档及相关软件下载
-SimNow网站经常上不了是吧，可以在openctp下载，网址：[openctp模拟环境监控](http://121.37.80.177/download.html)
+SimNow网站经常上不了是吧，可以在openctp下载，网址：[CTPAPI接口与文档下载](http://121.37.80.177/download.html)
 
 # openctp咨询服务
 基于openctp积累的深厚的技术，我们为CTP、华鑫奇点、中泰XTP等柜台接入与开发提供咨询服务，有接口及实盘交易问题均可咨询，只需1000元，永久服务。
