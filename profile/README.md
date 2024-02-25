@@ -19,10 +19,13 @@ openctp模拟环境的使用方法及账号注册等见openctp仓库：[https://
 # [CTPAPI](https://github.com/openctp/openctp)
 openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改即可接入股票柜台。
 
-openctp还提供了Python版的CTPAPI的pip install支持，为Python开发者提供了极大的便利。其它语言的CTPAPI我们也做了收集，均为github作者实现。
 ## [CTPAPI-Python](https://github.com/openctp/openctp-ctp-python)
 CTPAPI的Python接口，openctp官方开发，使用Swig技术制作，提供两种方式使用Python版的CTPAPI，一种是下载我们做好的Python库，一种是用pip install一键安装。
-
+## openctp开发的demo与工具
+### CTP、XTP、TORA等柜台接口demo
+虽然ctp等官方都给出了一些demo，但是都过于粗糙了，甚至有误导作用，可以看看我们是怎么写demo的，地址：[CTP、XTP等柜台接口demo](https://github.com/openctp/openctp/tree/master/demo/print)
+### 行情显示工具prices
+一个命令行模式的CTP行情显示工具，采用curses技术开发，地址：[行情显示工具prices](https://github.com/openctp/openctp/tree/master/demo/prices)
 # [TickTrader](https://github.com/openctp/TickTrader)
 一款支持订单OneClickOrder下单风格的交易客户端，支持CTP、CTP股票期权、openctp、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
 
@@ -50,11 +53,7 @@ openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT
 开发中。。。
 ## CTP、中泰XTP、华鑫TORA等柜台接口、文档及相关软件下载
 SimNow网站经常上不了是吧，可以在openctp下载，网址：[CTPAPI接口与文档下载](http://121.37.80.177/download.html)
-## openctp开发的demo与工具
-### CTP、XTP、TORA等各柜台接口demo
-虽然ctp等官方都给出了一些demo，但是都过于粗糙了，甚至有误导作用，可以看看我们是怎么写demo的，地址：[CTP、XTP等各柜台接口demo](https://github.com/openctp/openctp/tree/master/demo/print)
-### 行情显示工具prices
-一个命令行模式的CTP行情显示工具，采用curses技术开发，地址：[行情显示工具prices](https://github.com/openctp/openctp/tree/master/demo/prices)
+
 # openctp咨询服务
 基于openctp积累的深厚的技术，我们为CTP、华鑫奇点、中泰XTP等柜台接入与开发提供咨询服务，有接口及实盘交易问题均可咨询，只需1000元，永久服务。
 
