@@ -50,7 +50,11 @@ openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT
 开发中。。。
 ## CTP、中泰XTP、华鑫TORA等柜台接口、文档及相关软件下载
 SimNow网站经常上不了是吧，可以在openctp下载，网址：[CTPAPI接口与文档下载](http://121.37.80.177/download.html)
-
+## openctp开发的demo与工具
+### CTP、XTP、TORA等各柜台接口demo
+虽然ctp等官方都给出了一些demo，但是都过于粗糙了，甚至有误导作用，可以看看我们是怎么写demo的，地址：[各柜台接口demo](https://github.com/openctp/openctp/tree/master/demo/print)
+### 行情显示工具prices
+CTP行情显示工具，采用curses技术开发，地址：[各柜台接口demo](https://github.com/openctp/openctp/tree/master/demo/prices)
 # openctp咨询服务
 基于openctp积累的深厚的技术，我们为CTP、华鑫奇点、中泰XTP等柜台接入与开发提供咨询服务，有接口及实盘交易问题均可咨询，只需1000元，永久服务。
 
