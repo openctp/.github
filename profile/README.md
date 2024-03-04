@@ -1,5 +1,7 @@
 # openctp的产品与服务
-[openctp](https://github.com/openctp/openctp)是一个以CTP生态为基础的平台，既提供了华鑫证券奇点、中泰证券XTP、东方财富EMT、东方证券OST等柜台的[CTPAPI](https://github.com/openctp/openctp)兼容接口，也提供了一套与上期技术SimNow模拟环境类似的模拟环境，也支持CTPAPI接口，不仅提供国内各期货交易所的期货与期权品种模拟交易，还提供了A股的股票、基金、债券以及股票期权模拟交易，也支持港股、美股等市场模拟交易。
+[openctp](https://github.com/openctp/openctp)是一个以CTP生态为基础的技术服务平台，通过将中泰XTP、华鑫奇点等股票柜台的接口封装成[CTPAPI](https://github.com/openctp/openctp)，使得CTP程序只需将CTP动态库如"thosttraderapi_se.dll"替换成各柜台的同版本CTPAPI动态库即可接入相应柜台，可以帮助开发者节省大量的接口对接成本。
+
+[openctp](https://github.com/openctp/openctp)也提供了一套与上期技术SimNow模拟环境类似的模拟环境，支持CTPAPI接口，不仅提供国内各期货交易所的期货与期权品种模拟交易，还提供了A股的股票、基金、债券以及股票期权模拟交易，也支持港股、美股等市场模拟交易。
 
 openctp还提供了CTPAPI的Python接口，开发了CTP交易客户端[ViTrader](https://github.com/openctp/ViTrader)并开放了源码，还开发了图形界面的交易客户端[TickTrader](https://github.com/openctp/TickTrader),都支持openctp、CTP、CTP股票期权、中泰XTP、华鑫奇点股票与股票期权等柜台。
 
@@ -12,9 +14,11 @@ openctp还有更多的产品和服务在研发中。。。
 ![openctp全景图](https://user-images.githubusercontent.com/83346523/148639077-6c328032-b75a-4979-be8d-157de60cf3b4.jpg)
 
 # openctp模拟环境
-openctp模拟环境与上期技术SimNow模拟环境类似，均为CTPAPI接口的测试与仿真平台，CTP是上期开发的，SimNow用的也是CTP柜台，所以SimNow是CTPAPI接口的官方测试平台，openctp是自己开发了兼容CTPAPI接口的柜台系统，由于CTP柜台业务非常多，我们openctp只是从一般投资者角度考虑，只实现了一般交易过程中需要使用的接口，完整版还需要到SimNow测试，其实SimNow也没多完整，毕竟是个模拟环境，很多业务也不支持，所以有些功能还是需要在实盘环境中测试的。
+openctp模拟环境采用与CTP完全兼容的SDK接口，提供期货、期权以及股票（A股股票、基金、债券及股票期权）等全市场全品种模拟交易。
 
-openctp模拟环境的使用方法及账号注册等见openctp仓库：[https://github.com/openctp/openctp](https://github.com/openctp/openctp)。
+openctp模拟环境的使用方法及账号注册等见[股票、期货、期权等模拟环境](https://zhuanlan.zhihu.com/p/685170963)。
+
+TTS柜台CTPAPI的github仓库：[TTS柜台CTPAPI](https://github.com/openctp/openctp/tree/master/ctp2TTS)。
 
 # [CTPAPI](https://github.com/openctp/openctp)
 openctp提供了华鑫证券、中泰证券、东方财富等股票柜台的CTPAPI接口，使得CTP程序无需修改即可接入股票柜台。
