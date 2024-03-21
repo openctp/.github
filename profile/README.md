@@ -34,8 +34,8 @@ CTPAPI的Python接口，openctp官方开发，使用Swig技术制作，提供两
 一款支持订单OneClickOrder下单风格的交易客户端，支持CTP、CTP股票期权、openctp、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
 
 [TickTrader下载](http://www.openctp.cn/download.html)
-# MiniTrader
-一款支持订单OneClickOrder下单风格的交易客户端，开发中，相当于TickTrader的Mini版，开发中，即将发布。
+# [MiniTrader](https://github.com/openctp/MiniTrader)
+一款支持订单OneClickOrder下单风格的交易客户端，开发中，相当于[TickTrader](http://www.openctp.cn/download.html)的Mini版，开发中，即将发布，集300个Star开源。
 
 # [ViTrader](https://github.com/openctp/ViTrader)
 ViTrader（原TextTrader），命令行交易终端（股票、期货、期权），绝大部分命令与VI编辑器中相同，支持CTP、openctp、华鑫证券、中泰证券等柜台，支持Windows、Linux、MacOS等操作系统。
