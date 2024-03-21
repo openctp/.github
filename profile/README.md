@@ -3,7 +3,7 @@
 
 [openctp](https://github.com/openctp/openctp)也提供了一套与上期技术SimNow模拟环境类似的模拟环境，支持CTPAPI接口，不仅提供国内各期货交易所的期货与期权品种模拟交易，还提供了A股的股票、基金、债券以及股票期权模拟交易，也支持港股、美股等市场模拟交易。
 
-openctp还提供了CTPAPI的Python接口，开发了CTP交易客户端[ViTrader](https://github.com/openctp/ViTrader)并开放了源码，还开发了图形界面的交易客户端[TickTrader](https://github.com/openctp/TickTrader),都支持openctp、CTP、CTP股票期权、中泰XTP、华鑫奇点股票与股票期权等柜台。
+openctp还提供了CTPAPI的Python接口，开发了CTP交易客户端[ViTrader](https://github.com/openctp/ViTrader)并开放了源码，还开发了图形界面的交易客户端[TickTrader](http://www.openctp.cn/download.html),都支持openctp、CTP、CTP股票期权、中泰XTP、华鑫奇点股票与股票期权等柜台。
 
 openctp还做了一套websocket接口的CTP服务，[webctp](https://github.com/openctp/webctp)，将CTP的服务以websocket+json形式对外提供服务，也开放了源码。
 
@@ -30,17 +30,17 @@ CTPAPI的Python接口，openctp官方开发，使用Swig技术制作，提供两
 虽然ctp等官方都给出了一些demo，但是都过于粗糙了，甚至有误导作用，可以看看我们是怎么写demo的，地址：[CTP、XTP等柜台接口demo](https://github.com/openctp/openctp/tree/master/demo/print)
 ### 行情显示工具prices
 一个命令行模式的CTP行情显示工具，采用curses技术开发，地址：[行情显示工具prices](https://github.com/openctp/openctp/tree/master/demo/prices)
-# [TickTrader](https://github.com/openctp/TickTrader)
+# [TickTrader](http://www.openctp.cn/download.html)
 一款支持订单OneClickOrder下单风格的交易客户端，支持CTP、CTP股票期权、openctp、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
 
-[TickTrader下载](http://121.37.80.177/download.html)
+[TickTrader下载](http://www.openctp.cn/download.html)
 # MiniTrader
 一款支持订单OneClickOrder下单风格的交易客户端，开发中，相当于TickTrader的Mini版，开发中，即将发布。
 
 # [ViTrader](https://github.com/openctp/ViTrader)
 ViTrader（原TextTrader），命令行交易终端（股票、期货、期权），绝大部分命令与VI编辑器中相同，支持CTP、openctp、华鑫证券、中泰证券等柜台，支持Windows、Linux、MacOS等操作系统。
 
-[ViTrader下载](http://121.37.80.177/download.html)
+[ViTrader下载](http://www.openctp.cn/download.html)
 
 # [webctp](https://github.com/openctp/webctp)
 以websocket+json协议提供CTP交易及行情服务，适合web类产品开发。
@@ -51,17 +51,17 @@ TTS全称Tick Trading System，是openctp开发的一款支持多通道多账户
 # TickTradingFramework策略交易框架
 CTP接口的坑非常多，专业性很强，持仓与资金的实时计算也很难处理，各种持仓与资金字段的冻结、计算等，openctp给出了一套轻量级的基于Tick的CTP策略交易框架源码，保持了原汁原味的CTP数据结构，代码很漂亮，不到5000行，简洁易懂，二次开发很容易。第二期培训中免费赠送了一套简版的Python交易框架。付费版有更完善更专业的持仓与资金计算，以及更多专业的处理，更多介绍见：[CTP策略交易框架](https://mp.weixin.qq.com/s?__biz=Mzk0ODI0NDE2Ng==&mid=2247485118&idx=1&sn=6ad0fe9db64e15f0ef481aac6cdbaa4e&chksm=c36bdd17f41c5401a823513fc82b28f42616b63faece2e6dc96db07b5a70ca419ccdbfecc835&token=246256733&lang=zh_CN#rd)。
 - CTP策略交易框架Python版源码，10000元。
-- CTP策略交易框架C++版源码，30000元。
+- CTP策略交易框架C++版源码，20000元。
 
 # openctp技术服务
 ## 期货交易佣金及保证金参考表
-openctp提供了一个实盘环境的手续费及保证金等资金计算参考表，每天同步实盘。网址：[openctp期货交易佣金及保证金参考表](http://121.37.80.177/fees.html)
+openctp提供了一个实盘环境的手续费及保证金等资金计算参考表，每天同步实盘。网址：[openctp期货交易佣金及保证金参考表](http://www.openctp.cn/fees.html)
 ## 模拟环境监控平台
-openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。网址：[openctp模拟环境监控](http://121.37.80.177)
+openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。网址：[openctp模拟环境监控](http://www.openctp.cn)
 ## 实盘环境监控平台
 开发中。。。
 ## CTP、中泰XTP、华鑫TORA等柜台接口、文档及相关软件下载
-SimNow网站经常上不了是吧，可以在openctp下载，网址：[CTPAPI接口与文档下载](http://121.37.80.177/download.html)
+SimNow网站经常上不了是吧，可以在openctp下载，网址：[CTPAPI接口与文档下载](http://www.openctp.cn/download.html)
 
 # openctp咨询服务
 基于openctp积累的深厚的技术，我们为CTP、华鑫奇点、中泰XTP等柜台接入与开发提供咨询服务，有接口及实盘交易问题均可咨询，只需1000元，永久服务。
