@@ -3,7 +3,7 @@
 
 [openctp](https://github.com/openctp/openctp)也提供了一套与上期技术SimNow模拟环境类似的模拟环境，支持CTPAPI接口，不仅提供国内各期货交易所的期货与期权品种模拟交易，还提供了A股的股票、基金、债券以及股票期权模拟交易，也支持港股、美股等市场模拟交易。
 
-openctp还提供了CTPAPI的Python接口，开发了CTP交易客户端[ViTrader](https://github.com/openctp/ViTrader)并开放了源码，还开发了图形界面的交易客户端[TickTrader](http://www.openctp.cn/download.html),都支持openctp、CTP、CTP股票期权、中泰XTP、华鑫奇点股票与股票期权等柜台，还做了一款TickTrader的简版[MiniTrader](https://github.com/openctp/MiniTrader)，并且开放了源码。
+openctp还提供了CTPAPI的Python接口，开发了CTP交易客户端[ViTrader](https://github.com/openctp/ViTrader)并开放了源码，还开发了图形界面的交易客户端[TickTrader](http://www.openctp.cn/download.html),都支持openctp、CTP、CTP股票期权、中泰XTP、华鑫奇点股票与股票期权等柜台，还做了一款TickTrader的简版[MiniTrader](https://github.com/openctp/MiniTrader)，采用openctp的CTPAPI兼容接口技术支持了CTP、TTS、华鑫证券股票与股票期权等柜台，无需自己再替换dll。
 
 openctp还做了一套websocket接口的CTP服务，[webctp](https://github.com/openctp/webctp)，将CTP的服务以websocket+json形式对外提供服务，也开放了源码。
 
@@ -31,11 +31,11 @@ CTPAPI的Python接口，openctp官方开发，使用Swig技术制作，提供两
 ### 行情显示工具prices
 一个命令行模式的CTP行情显示工具，采用curses技术开发，地址：[行情显示工具prices](https://github.com/openctp/openctp/tree/master/demo/prices)
 # [TickTrader](http://www.openctp.cn/download.html)
-一款支持订单OneClickOrder下单风格的交易客户端，支持CTP、CTP股票期权、openctp、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
+一款支持点价下单风格的交易客户端，支持CTP、CTP股票期权、TTS、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
 
 [TickTrader下载](http://www.openctp.cn/download.html)
 # [MiniTrader](https://github.com/openctp/MiniTrader)
-一款支持订单OneClickOrder下单风格的交易客户端，开发中，相当于[TickTrader](http://www.openctp.cn/download.html)的Mini版，开发中，即将发布，集300个Star开源。
+一款支持点价下单风格的交易客户端，采用openctp的CTPAPI兼容接口技术支持了CTP、TTS、华鑫证券股票与股票期权等柜台，无需自己再替换dll，下载地址：[MiniTrader下载](http://www.openctp.cn/download.html)。
 
 # [ViTrader](https://github.com/openctp/ViTrader)
 ViTrader（原TextTrader），命令行交易终端（股票、期货、期权），绝大部分命令与VI编辑器中相同，支持CTP、openctp、华鑫证券、中泰证券等柜台，支持Windows、Linux、MacOS等操作系统。
