@@ -34,9 +34,8 @@ CTP股票期权API的Python接口，openctp官方开发，使用Swig技术制作
 一个命令行模式的CTP行情显示工具，采用curses技术开发，地址：[行情显示工具prices](https://github.com/openctp/openctp/tree/master/demo/prices)
 
 # [TickTrader](http://www.openctp.cn/download.html)
-一款支持点价下单风格的交易客户端，支持CTP、CTP股票期权、TTS、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台。
+一款支持点价下单风格的交易客户端，支持CTP、CTP股票期权、TTS、华鑫证券股票及股票期权、中泰证券等股票、期货以及期权柜台，下载地址：[TickTrader下载](http://www.openctp.cn/download.html)。
 
-[TickTrader下载](http://www.openctp.cn/download.html)
 # [MiniTrader](https://github.com/openctp/MiniTrader)
 一款支持点价下单风格的交易客户端，采用openctp的CTPAPI兼容接口技术支持了CTP、TTS、华鑫证券股票与股票期权等柜台，无需自己再替换dll，下载地址：[MiniTrader下载](http://www.openctp.cn/download.html)。
 
