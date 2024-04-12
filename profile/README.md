@@ -63,11 +63,11 @@ CTP接口的坑非常多，专业性很强，持仓与资金的实时计算也�
 ## 期货交易佣金及保证金参考表
 openctp提供了一个实盘环境的手续费及保证金等资金计算参考表，每天同步实盘。网址：[openctp期货交易佣金及保证金参考表](http://www.openctp.cn/fees.html)
 ## 模拟环境监控平台
-openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。网址：[openctp模拟环境监控](http://www.openctp.cn)
+openctp提供了一个集中监控SimNow、华鑫N视界、中泰XTP、东财EMT等模拟环境的监控平台，当然也包括openctp自己的模拟环境，有几个环境，有没开着，一眼就知道了。网址：[CTP接口模拟环境监控](http://www.openctp.cn)。
 ## 实盘环境监控平台
-开发中。。。
+openctp提供了一个监控各大期货公司CTP柜台实盘系统运行情况的监控平台，并且还标出了支持上期所免费5档行情的期货公司，网址：[CTP柜台实盘环境监控](http://www.openctp.cn/env.html)。
 ## CTP、中泰XTP、华鑫TORA等柜台接口、文档及相关软件下载
-SimNow网站经常上不了是吧，可以在openctp下载，网址：[CTPAPI接口与文档下载](http://www.openctp.cn/download.html)
+SimNow网站经常上不了是吧，可以在openctp下载，网址：[CTPAPI接口与文档下载](http://www.openctp.cn/download.html)。
 
 # openctp培训服务
 openctp提供证券期货交易开发方面的技术培训，也提供行业无关的基础技术培训，openctp的培训偏向于就业方向，比如想去私募或者科技公司从事量化或者柜台系统开发的比较适合，当然如果想自己学习一些技术帮助自己更好地做交易也是可以的。openctp的培训是迭代式的，会不断更新，补充更多的内容，同学可在相应课程的群内永久交流。所有课程的每节课在B站上都有试看视频，报培训只需要在openctp的公众号回复培训两个字即可获取联系方式。
