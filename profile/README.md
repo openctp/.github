@@ -86,5 +86,14 @@ openctp做了一些免费的0基础学习课程，帮助更多朋友进入到软
 - C++语言公开课：以生动有趣的方式讲C++语言基础性编程技术，课程在准备中。
 - [Linux环境编程公开课](https://www.bilibili.com/video/BV1Jw411E7sF)：介绍Unix&Linux的前世今世，讲Shell、VI编辑器等使用，讲netstat、traceroute、ifconfig、lsof等网络工具的使用，讲正则表达式等等，0基础，谁都能听得懂。
 
+# 实盘交易
+openctp有合作的券商和期货公司，不仅交易费用低并且还可以得到免费的技术支持服务（CTP、XTP等接口与应用开发培训等），具体请关注openctp公众号，回复“咨询”两个字。
+
+# 技术交流
+QQ群：127235179
+
+# openctp官网
+[www.openctp.cn](http://www.openctp.cn/)
+
 # openctp公众号
 <img src="https://user-images.githubusercontent.com/83346523/225707613-59293970-0f04-4056-8ea4-dd4596a4efec.png" alt="微信公众号" width="300" height="350" />
