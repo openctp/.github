@@ -90,7 +90,7 @@ openctp做了一些免费的0基础学习课程，帮助更多朋友进入到软
 openctp有合作的券商和期货公司，不仅交易费用低并且还可以得到免费的技术支持服务（CTP、XTP等接口与应用开发培训等），具体请关注openctp公众号，回复“咨询”两个字。
 
 # 技术交流
-QQ群：127235179
+QQ群：564385877
 
 # openctp官网
 [www.openctp.cn](http://www.openctp.cn/)
