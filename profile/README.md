@@ -49,11 +49,10 @@ ViTrader（原TextTrader），命令行交易终端（股票、期货、期权�
 TTS全称Tick Trading System，是openctp开发的一款支持多通道多账户多交易员的交易系统，以CTPAPI接口对外通讯，openctp的模拟平台就是采用TTS系统提供模拟交易服务。
 
 # TickTradingFramework策略交易框架
-CTP接口的坑非常多，专业性很强，持仓与资金的实时计算也很难处理，各种持仓与资金字段的冻结、计算等，openctp给出了一套轻量级的基于Tick的CTP策略交易框架源码，保持了原汁原味的CTP数据结构，代码很漂亮，不到5000行，简洁易懂，二次开发很容易。第二期培训中免费赠送了一套简版的Python交易框架。付费版有更完善更专业的持仓与资金计算，以及更多专业的处理，更多介绍见：[CTP策略交易框架](https://mp.weixin.qq.com/s?__biz=Mzk0ODI0NDE2Ng==&mid=2247485118&idx=1&sn=6ad0fe9db64e15f0ef481aac6cdbaa4e&chksm=c36bdd17f41c5401a823513fc82b28f42616b63faece2e6dc96db07b5a70ca419ccdbfecc835&token=246256733&lang=zh_CN#rd)。
-- CTP策略交易框架Python-Lite版源码（培训版，不带手续费及保证金等计算），3000元。
+CTPAPI接口的坑非常多，专业性很强，持仓与资金的实时计算也很难处理，各种持仓与资金字段的冻结、计算等，openctp给出了一套轻量级的基于Tick的CTPAPI策略交易框架源码，保持了原汁原味的CTP数据结构，代码很漂亮，不到5000行，简洁易懂，二次开发很容易，更多介绍见：[CTPAPI策略交易框架](https://mp.weixin.qq.com/s?__biz=Mzk0ODI0NDE2Ng==&mid=2247485118&idx=1&sn=6ad0fe9db64e15f0ef481aac6cdbaa4e&chksm=c36bdd17f41c5401a823513fc82b28f42616b63faece2e6dc96db07b5a70ca419ccdbfecc835&token=246256733&lang=zh_CN#rd)。
+- CTP策略交易框架Python-Lite版源码（不带手续费及保证金等计算），5000元。
 - CTP策略交易框架Python版源码，10000元。只支持单账户，实时计算持仓及资金。
 - CTP策略交易框架Python多账户版源码，30000元。支持多账户，可以通过openctp的CTPAPI兼容接口方式接入华鑫证券、中泰证券等柜台。
-- CTP策略交易框架Python多柜台版源码，50000元。支持多账户，支持华鑫证券、中泰证券、易盛等跨柜台策略交易，支持华鑫证券、中泰证券、易盛等多数据源，且支持数据源之间负载均衡。
 - CTP策略交易框架C++版源码，30000元。只支持单账户，实时计算持仓及资金。
 - CTP策略交易框架C++多账户版源码，50000元。支持多账户，可以通过openctp的CTPAPI兼容接口方式接入华鑫证券、中泰证券等柜台。
 - CTP策略交易框架C++多柜台版源码，80000元。支持多账户，支持华鑫证券、中泰证券、易盛等跨柜台策略交易，支持华鑫证券、中泰证券、易盛等多数据源，且支持数据源之间负载均衡。
@@ -75,8 +74,8 @@ openctp不定期组织同学进行技术交流，为大家创造一个好的学�
 
 ## 课程介绍
 - 第一期：[C/C++高级编程](https://www.bilibili.com/video/BV1mV4y1V7HM)，5000元，以krenx开发的C语言跨平台开发框架[Think库](https://github.com/krenx1983/think)为基准进行讲解，含socket网络编程、IPC进程通讯等，有众多实用的工具，可立即应用到工作中。另外还有boost.asio异步网络通讯框架等开发技术的讲解，也提供相应的实例源码。
-- 第二期：[CTP、XTP等柜台接口开发技术](https://www.bilibili.com/video/BV1JP411N78s)，5000元，以openctp相关技术为基准进行讲解，含CTPAPI底层逻辑、CTPAPI各种注意事项、开源CTP客户端TextTrader源码讲解等。送高质量轻量级Tick级多策略交易框架源码（约三五千行），保持原汁原味的CTP数据结构，实时计算持仓、资金。
-- 第三期：[交易系统开发](https://www.bilibili.com/video/BV1F3411f7Q9)，8000元，以TTS交易系统为基准进行讲解，含交易系统结构、架构技术、业务表结构设计、关键业务处理等。送一套完整的交易撮合系统源码，含下单、仓位与资金计算、委托回报、成交回报、撮合成交、行情推送等完整功能，正在开发中，开发完成后也将免费发给前面已报名的同学。
+- 第二期：[CTP、XTP等柜台接口开发技术](https://www.bilibili.com/video/BV1JP411N78s)，5000元，以openctp相关技术为基准进行讲解，含CTPAPI底层逻辑、CTPAPI各种注意事项、开源CTP客户端TextTrader源码讲解等。
+- 第三期：[交易系统开发](https://www.bilibili.com/video/BV1F3411f7Q9)，8000元，以TTS交易系统为基准进行讲解，含交易系统结构、架构技术、业务表结构设计、关键业务处理等。
 - 第四期：[金融交易业务与产品设计](https://www.bilibili.com/video/BV1sd4y1a7Kk)，3000元，通讲全球股票、期货、期权交易发展历程、交易规则、计算公式、风险控制及产品设计，提供一份CTP全部常用字段的详细说明。
 - 第五期：[内存数据库架构交易系统总线开发技术](https://www.bilibili.com/video/BV1Bx4y1K7t7)，10000元，通过TTS的总线架构技术讲解CTP那样的总线开发技术，包括重演、热备、负载均衡、最短路由、分布式计算等技术，内存计算架构在各行业的高性能通讯方面都可以应用，远不止金融交易领域。
 
